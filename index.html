@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juice Shop Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <p class="brand">OWASP Juice Shop</p>
+    <h1>Login</h1>
+    <form id="login-form" novalidate>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="username" placeholder="email@example.com">
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" placeholder="At least 8 characters">
+
+      <button type="submit">Log in</button>
+    </form>
+    <p id="message" class="message" role="alert"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
