@@ -2,7 +2,7 @@
 
 A small login page modeled on the OWASP Juice Shop login screen. It checks the email and password in the browser, then checks them again on the server.
 
-The page asks for an email and a password. The browser blocks an empty email or password, requires `@` in the email, and requires a password of at least 8 characters. `server.py` repeats those same checks for `POST /login`, so the rules still apply if someone skips the JavaScript and calls the server directly. There is no user database. A valid-looking submission is rejected as an invalid login, and the password is not stored.
+The page asks for an email and a password. The browser blocks an empty email or password, requires `@` in the email, and requires a password of at least 8 characters. `server.py` repeats those same checks for `POST /login`, so the rules still apply if someone skips the JavaScript and calls the server directly. There is no user database. A valid-looking submission is rejected as an invalid login, and the password is not stored
 
 ## Run
 
